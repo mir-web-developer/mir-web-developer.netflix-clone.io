@@ -1,6 +1,7 @@
-const APIKEY = "833753aa9b2b7d0168813219671d8314"
+const API_KEY = "833753aa9b2b7d0168813219671d8314"
 
 const requests = {
+    //@ts-ignore
     fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
     fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
     fetchTopRated: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
